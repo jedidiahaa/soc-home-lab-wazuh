@@ -21,7 +21,7 @@ Source file on the server: `/var/ossec/ruleset/rules/0580-win-security_rules.xml
 ## 60115 - User account locked out (multiple login errors)
 
 - Level 9. Fired at 13:37:50 Budapest time (12:37:50 UTC), right after the burst. Windows recorded event 4740 for the lockout.
-- I did not open this rule's definition.
+- MITRE tags on the alert: T1110 (Brute Force) and T1531 (Account Access Removal). I did not open this rule's definition.
 
 ## How I tested
 
