@@ -29,7 +29,7 @@ Both VMs run in VirtualBox 7.2.22 on a 16 GB laptop. The lab network is host-onl
 | Repeated failed logons | 4625 | 60122, one per failure | built-in | 5 | T1531 (built-in tag) |
 | | | **100100**, 5 failures on one account in 2 minutes | **custom** | 8 | T1110.001 |
 | | | 60204, 8 failures from one source in 4 minutes | built-in | 10 | T1110 |
-| | 4740 | 60115, account locked out | built-in | 9 | not inspected |
+| | 4740 | 60115, account locked out | built-in | 9 | T1110, T1531 (built-in tags) |
 | New local admin account | 4720, 4732 | 60109 (created), 60154 (Administrators changed) | built-in | 8, 12 | T1098, T1484 (built-in tags) |
 | Security log cleared | 1102 | 63103 | built-in | 5 | T1070 |
 | | | **100101**, same event raised to level 12 | **custom** | 12 | T1070.001 |
